@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS Cost Optimization Dashboard</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AWS Cost Optimization Dashboard</h1>
+
+        <div class="grid">
+
+            <div class="card">
+                <h2>Latest Estimated Savings</h2>
+                <p id="latestSavings">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>Total Historical Savings</h2>
+                <p id="historicalSavings">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>Resources Analyzed</h2>
+                <p id="resources">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>Optimization Candidates</h2>
+                <p id="candidates">Loading...</p>
+            </div>
+
+        </div>
+
+        <div class="chart-container">
+
+            <canvas id="savingsChart"></canvas>
+
+        </div>
+
+        <button onclick="loadReport()">
+            View Latest Report
+        </button>
+
+        <div id="reportContainer"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
