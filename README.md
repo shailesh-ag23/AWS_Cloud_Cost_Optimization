@@ -281,6 +281,11 @@ Lambda failure -> CloudWatch detects an error -> Alarm triggers -> SNS email ale
 
 ✨ Conclusion  
 
+
+<img width="1905" height="905" alt="Screenshot 2026-05-26 224435" src="https://github.com/user-attachments/assets/b18886ac-6ddc-436a-9851-f6b68d7657b2" />  
+
+<img width="1906" height="909" alt="Screenshot 2026-05-26 224446" src="https://github.com/user-attachments/assets/da1e2e89-bba1-45ce-899d-b8e2459ac64f" />
+
 This project demonstrates how cloud-native serverless architectures can be used to automate infrastructure optimization, reduce operational costs, and improve cloud visibility.  
 Instead of building a basic dashboard or CRUD application, this platform focuses on solving a real operational engineering problem using scalable AWS-native services and production-style cloud workflows.  
 
