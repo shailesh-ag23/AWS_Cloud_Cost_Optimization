@@ -1,0 +1,76 @@
+body {
+
+    background-color: #111827;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+}
+
+.container {
+
+    width: 90%;
+
+    margin: auto;
+
+    padding: 20px;
+}
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.card {
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.chart-container {
+
+    margin-top: 40px;
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+button {
+
+    margin-top: 20px;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+#reportContainer {
+
+    margin-top: 30px;
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
